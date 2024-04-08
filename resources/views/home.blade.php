@@ -14,11 +14,11 @@
 
             <div class="comics-list text-white">
                 @foreach ($series as $serie)
-                <div class="comic">
+                <a href="{{route('comic')}}" class="comic text-white">
                     <img src="{{ $serie['thumb'] }}" alt="{{ $serie['series'] }}">
                     <div> {{ $serie['series'] }}</div>
 
-                </div>
+                </a>
                 @endforeach
             </div>
 
