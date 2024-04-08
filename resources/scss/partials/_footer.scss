@@ -1,0 +1,79 @@
+@use '../partials/variables' as *;
+
+.background {
+    height: 370px;
+
+    background-image: url('../img/footer-bg.jpg');
+    background-position: cover;
+
+    overflow: hidden;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        height: 100%;
+    }
+
+    ul {
+        list-style-type: none;
+        padding: 0;
+
+        color: #ccc;
+        font-size: .9 em;
+    }
+
+    .link-list {
+        display: flex;
+        flex-flow: column wrap;
+        align-content: flex-start;
+        gap: 10px 30px;
+
+        height: 100%;
+
+        padding: 20px 0;
+
+
+        h4 {
+            font-size: 1.5em;
+
+            margin-bottom: 10px;
+        }
+    }
+
+}
+
+.footer-background {
+    background-color: #303030;
+    padding: 20px 0;
+
+}
+
+.list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button {
+    color: white;
+    background-color: transparent;
+
+    padding: 15px 15px;
+    border: solid $primaryColor 1px
+}
+
+.social-list {
+    display: flex;
+    align-items: center;
+
+    list-style-type: none;
+
+    gap: 20px;
+}
+
+.follow {
+    color: $primaryColor;
+    font-weight: bold;
+}

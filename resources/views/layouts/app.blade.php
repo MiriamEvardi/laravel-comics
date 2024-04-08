@@ -16,6 +16,8 @@
 
     @yield('link-section')
 
+    @include('partials/footer')
+
 </body>
 
 </html>

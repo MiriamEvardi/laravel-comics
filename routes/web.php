@@ -17,6 +17,8 @@ Route::get('/', function () {
     $links = config("db.links");
     $series = config("db.series");
     $informations = config("db.informations");
+    $linkList = config("db.linkList");
+    $social = config('db.social');
 
-    return view('home', compact('links', 'series', 'informations'));
+    return view('home', compact('links', 'series', 'informations', 'linkList', 'social'));
 })->name('home');

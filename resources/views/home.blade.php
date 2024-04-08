@@ -7,7 +7,7 @@
 
 <div class="content-container">
     <div class="container">
-        <h2> CURRENT SERIES</h2>
+        <h2 class="text-white"> CURRENT SERIES</h2>
     </div>
     <div class="container">
         <div id="comics">

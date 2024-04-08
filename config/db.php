@@ -100,5 +100,24 @@ return [
         ]
     ],
 
+    'linkList' => [
+        [
+            'title' => 'DC COMICS',
+            'items' => ['Characters', 'Comics', 'Movies', 'TV', 'Games', 'Videos', 'News']
+        ],
+        [
+            'title' => 'SHOP',
+            'items' => ['Shop DC', 'Shop DC Collectibles']
+        ],
+        [
+            'title' => 'DC',
+            'items' => ['Term Of Use', 'Privacy policy (New)', 'Advertising', 'Jobs', 'Subscriptions', 'Talent Workshops', 'CPSC Certificates', 'Ratings', 'Shop Help', 'Contact Us']
+        ],
+        [
+            'title' => 'SITES',
+            'items' => ['DC', 'MAD Magazine', 'DC Kids', 'DC Universe', 'DC Power Visa']
+        ]
+    ],
+
     'social' => ['/img/footer-facebook.png', '/img/footer-twitter.png', '/img/footer-youtube.png', '/img/footer-pinterest.png', '/img/footer-periscope.png']
 ];
