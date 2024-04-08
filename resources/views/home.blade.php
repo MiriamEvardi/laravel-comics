@@ -29,6 +29,27 @@
     </div>
 </div>
 
+@endsection
 
+
+@section('link-section')
+
+<div class="links-container">
+    <div class="container">
+        <ul class="links">
+            @foreach ($informations as $info)
+            <li>
+
+                <div class="image">
+                    <img src="{{ Vite::asset('resources' . $info['img'] ) }}" alt="">
+                </div>
+
+                <span>{{ $info['name'] }}</span>
+            </li>
+            @endforeach
+        </ul>
+
+    </div>
+</div>
 
 @endsection

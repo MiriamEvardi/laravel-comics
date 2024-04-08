@@ -14,6 +14,8 @@
 
     @yield('comics')
 
+    @yield('link-section')
+
 </body>
 
 </html>
