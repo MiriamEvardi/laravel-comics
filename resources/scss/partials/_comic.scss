@@ -18,10 +18,19 @@
 }
 
 .adv {
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 400px;
 
     img {
-        height: 100%;
+        width: 100%;
     }
+}
+
+.price {
+    background-color: rgb(87, 168, 87);
+}
+
+.bottom-page {
+    background-color: #f6f6f6;
+    border-top: #e3e3e3 solid 2px;
 }
