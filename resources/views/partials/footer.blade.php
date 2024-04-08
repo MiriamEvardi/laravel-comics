@@ -11,10 +11,13 @@
                     <li>{{ $item }}</li>
                     @endforeach
                 </ul>
+
             </div>
             @endforeach
 
+
         </div>
+
 
         <div class="big-logo">
             <img src="{{ Vite::asset('resources/img/dc-logo-bg.png') }}" alt="">

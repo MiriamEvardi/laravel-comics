@@ -22,3 +22,11 @@ Route::get('/', function () {
 
     return view('home', compact('links', 'series', 'informations', 'linkList', 'social'));
 })->name('home');
+
+
+Route::get('/comic', function () {
+    $links = config("db.links");
+    $linkList = config("db.linkList");
+    $social = config('db.social');
+    return view('comic', compact('links', 'linkList', 'social'));
+})->name('comic');

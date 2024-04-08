@@ -1,9 +1,14 @@
 @use '../partials/variables' as *;
 
+
+.top-nav {
+    background-color: $primaryColor;
+
+    height: 25px;
+}
+
 nav {
     background-color: aliceblue;
-
-    height: 120px;
 
     .container {
         display: flex;
