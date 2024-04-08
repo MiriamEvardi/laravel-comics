@@ -119,5 +119,25 @@ return [
         ]
     ],
 
+
+    'comicLink' => [
+        [
+            'name' => 'DIGITAL COMICS',
+            'img' => '/img/buy-comics-digital-comics.png'
+        ],
+        [
+            'name' => 'DC MERCHANDISE',
+            'img' => '/img/buy-comics-merchandise.png'
+        ],
+        [
+            'name' => 'COMIC SHOP LOCATOR',
+            'img' => '/img/buy-comics-shop-locator.png'
+        ],
+        [
+            'name' => 'SUBSCRIPTION',
+            'img' => '/img/buy-comics-subscriptions.png'
+        ],
+    ],
+
     'social' => ['/img/footer-facebook.png', '/img/footer-twitter.png', '/img/footer-youtube.png', '/img/footer-pinterest.png', '/img/footer-periscope.png']
 ];

@@ -78,21 +78,19 @@
     </div>
 
 
-    <div class="links-container">
+    <div class="border-top border-2">
         <div class="container">
-            <ul class="links">
-                @foreach ($informations as $info)
-                <li>
+            <ul class="comic-links list-unstyled d-flex justify-content-between m-0">
+                @foreach ($comicLink as $comic)
+                <li class="col-3 d-flex align-items-center justify-content-between gap-5 border-1 border-start py-3 px-5 border-end">
+                    <span>{{ $comic['name'] }}</span>
 
-                    <div class="image">
-                        <img src="{{ Vite::asset('resources' . $info['img'] ) }}" alt="">
+                    <div class="comic-link-image">
+                        <img src="{{ Vite::asset('resources' . $comic['img'] ) }}" alt="">
                     </div>
-
-                    <span>{{ $info['name'] }}</span>
                 </li>
                 @endforeach
             </ul>
-
         </div>
     </div>
     @endsection

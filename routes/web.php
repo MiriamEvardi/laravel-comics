@@ -28,5 +28,7 @@ Route::get('/comic', function () {
     $links = config("db.links");
     $linkList = config("db.linkList");
     $social = config('db.social');
-    return view('comic', compact('links', 'linkList', 'social'));
+    $comicLink = config('db.comicLink');
+
+    return view('comic', compact('links', 'linkList', 'social', 'comicLink'));
 })->name('comic');
