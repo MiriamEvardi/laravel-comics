@@ -12,6 +12,8 @@
 <body>
     @include('partials/nav')
 
+    @yield('comics')
+
 </body>
 
 </html>

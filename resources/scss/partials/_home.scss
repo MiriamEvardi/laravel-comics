@@ -1,0 +1,72 @@
+@use '../partials/variables' as *;
+
+.top-container {
+    object-fit: cover;
+    width: 100%;
+    height: 400px;
+    object-position: top;
+}
+
+.comic {
+    width: calc(100% / 6);
+    height: 195px;
+    padding: 15px;
+    margin-bottom: 30px;
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: top;
+    }
+
+    div {
+        margin-top: 10px;
+        text-transform: uppercase;
+        line-height: 1.2em;
+        font-size: 0.8em;
+    }
+}
+
+.content-container {
+    background-color: #1c1c1c;
+    padding: 40px 0;
+
+    .container {
+        position: relative;
+    }
+
+    h2 {
+        position: absolute;
+        bottom: 15px;
+        left: 0;
+
+        padding: 10px 15px;
+
+        background-color: $primaryColor;
+    }
+
+    #comics {
+        padding: 20px 0;
+
+        .comics-list {
+            display: flex;
+            flex-flow: row wrap;
+        }
+
+        .load-button {
+            display: flex;
+            justify-content: center;
+            margin-top: 30px;
+
+            .load {
+                padding: 10px 50px;
+                background-color: $primaryColor;
+
+                font-weight: 600;
+
+            }
+
+        }
+    }
+}
